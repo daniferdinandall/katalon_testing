@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Testing Login dan List,Chrome 124.0.0.0,,,16-05-2024 17:12:49,16-05-2024 17:13:09,19.471s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 124.0.0.0,,,16-05-2024 17:12:49,16-05-2024 17:12:54,4.406s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,16-05-2024 17:12:49,16-05-2024 17:12:51,1.281s,PASSED
+"navigateToUrl(""https://trensentimen.my.id/login.html"")",Chrome 124.0.0.0,,,16-05-2024 17:12:51,16-05-2024 17:12:52,1.385s,PASSED
+"setText(findTestObject(""Object Repository/Page_Form Login/input_Login_email""), ""inad@gmail.com"")",Chrome 124.0.0.0,,,16-05-2024 17:12:52,16-05-2024 17:12:53,0.753s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Form Login/input_Login_password""), ""RigbBhfdqOBDK95asqKeHw=="")",Chrome 124.0.0.0,,,16-05-2024 17:12:53,16-05-2024 17:12:53,0.354s,PASSED
+"click(findTestObject(""Object Repository/Page_Form Login/button_Login""))",Chrome 124.0.0.0,,,16-05-2024 17:12:53,16-05-2024 17:12:53,0.320s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,16-05-2024 17:12:53,16-05-2024 17:12:54,0.147s,PASSED
+,,,,,,,
+Test Cases/List,Chrome 124.0.0.0,,,16-05-2024 17:12:54,16-05-2024 17:13:09,14.926s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,16-05-2024 17:12:54,16-05-2024 17:12:54,0.669s,PASSED
+"navigateToUrl(""https://trensentimen.my.id/login.html"")",Chrome 124.0.0.0,,,16-05-2024 17:12:54,16-05-2024 17:12:55,0.781s,PASSED
+"setText(findTestObject(""Object Repository/Page_Form Login/input_Login_email""), ""dimas@gmail.com"")",Chrome 124.0.0.0,,,16-05-2024 17:12:55,16-05-2024 17:12:56,0.815s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Form Login/input_Login_password""), ""RigbBhfdqOBDK95asqKeHw=="")",Chrome 124.0.0.0,,,16-05-2024 17:12:56,16-05-2024 17:12:56,0.307s,PASSED
+"click(findTestObject(""Object Repository/Page_Form Login/button_Login""))",Chrome 124.0.0.0,,,16-05-2024 17:12:56,16-05-2024 17:12:57,0.281s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/a_Logout""))",Chrome 124.0.0.0,,,16-05-2024 17:12:57,16-05-2024 17:13:03,6.410s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/a_Daftar Sentimen""))",Chrome 124.0.0.0,,,16-05-2024 17:13:03,16-05-2024 17:13:05,1.722s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/button_Batal_showModalButton""))",Chrome 124.0.0.0,,,16-05-2024 17:13:05,16-05-2024 17:13:06,1.050s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/button_Logout_closeModalButton""))",Chrome 124.0.0.0,,,16-05-2024 17:13:06,16-05-2024 17:13:06,0.291s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/div_PRESIDEN JANGAN DIPILIH OLEH RAKYAT    _3f7b2b""))",Chrome 124.0.0.0,,,16-05-2024 17:13:06,16-05-2024 17:13:08,2.412s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,16-05-2024 17:13:08,16-05-2024 17:13:09,0.129s,PASSED
